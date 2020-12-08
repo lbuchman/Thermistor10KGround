@@ -8,7 +8,7 @@
 class Thermistor10KGround {
     public:
         Thermistor10KGround(double& _beta, double& _r25): beta(_beta), r25(_r25) {
-            
+
         }
         double getTemp(double rThermistor) {
             const double  A_0  = 1.0 / refTemp;
